@@ -19,7 +19,7 @@ Installation instructions will be provided for manual installation and, followin
 
 ## Compatibility
 
-Supported FreeCAD versions will be listed after release validation.
+Supported FreeCAD versions are 1.1.4
 
 ## License
 
