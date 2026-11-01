@@ -1,0 +1,21 @@
+Cabinet Core v1.01 file manifest
+AdvCabinetValidation.py
+AdvCabinetParameters.py
+AdvCabinetComponents.py
+AdvCabinetLayouts.py
+AdvCabinetRuntime.py
+AdvCabinetSnap.py
+AdvCabinetDialog.py
+AdvCabinetMigration.py
+AdvCabinetProfiles.py
+CabinetCoreV1_regression.py
+CabinetCoreV1_FreeCADSmokeTest.py
+CabinetCoreV1_README.txt
+CabinetCoreV1_MANIFEST.txt
+LowerTwoDoorCabinet.py
+TwoDoorUpperCabinet.py
+upperOpenShelf.py
+LowerCabinet2Drawers2Door.py
+FourDrawerLowerCabinet.py
+MultiDoorDrawerLowerCabinet.py
+tall_pantry_utility_cabinet.py

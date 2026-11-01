@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d7dde3"/>
+      <stop offset="100%" stop-color="#aab4be"/>
+    </linearGradient>
+    <linearGradient id="frontGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c7cfd7"/>
+      <stop offset="100%" stop-color="#9ca7b2"/>
+    </linearGradient>
+    <linearGradient id="sideGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#79838c"/>
+      <stop offset="100%" stop-color="#616b74"/>
+    </linearGradient>
+  </defs>
+  <!-- top -->
+  <polygon points="9,10 31,0.8 57,16 35,28.5" fill="url(#topGrad)" stroke="#14181d" stroke-width="0.85" stroke-linejoin="round"/>
+  <!-- right side -->
+  <polygon points="35,28.5 57,16 57,51 35,64" fill="url(#sideGrad)" stroke="#14181d" stroke-width="0.85" stroke-linejoin="round"/>
+  <!-- front -->
+  <polygon points="9,10 35,28.5 35,64 9,45.5" fill="url(#frontGrad)" stroke="#14181d" stroke-width="0.85" stroke-linejoin="round"/>
+  <!-- upper drawer boundary -->
+  <line x1="9" y1="20.3" x2="35" y2="38.8" stroke="#14181d" stroke-width="0.9"/>
+  <!-- vertical divider below drawer -->
+  <line x1="23.5" y1="30.6" x2="23.5" y2="55.8" stroke="#14181d" stroke-width="0.9"/>
+  <!-- split between right stacked panels -->
+  <line x1="23.5" y1="43.0" x2="35" y2="51.1" stroke="#14181d" stroke-width="0.9"/>
+  <!-- drawer inset -->
+  <polygon points="11.2,13.7 32.5,28.8 32.5,31.0 11.2,15.9" fill="none" stroke="#14181d" stroke-width="0.65" stroke-linejoin="round"/>
+  <!-- left large inset panel -->
+  <polygon points="11.2,22.9 21.5,30.2 21.5,50.0 11.2,42.7" fill="none" stroke="#14181d" stroke-width="0.65" stroke-linejoin="round"/>
+  <!-- upper right inset panel -->
+  <polygon points="25.6,33.6 32.5,38.5 32.5,45.6 25.6,40.7" fill="none" stroke="#14181d" stroke-width="0.65" stroke-linejoin="round"/>
+  <!-- lower right inset panel -->
+  <polygon points="25.6,45.7 32.5,50.6 32.5,57.7 25.6,52.8" fill="none" stroke="#14181d" stroke-width="0.65" stroke-linejoin="round"/>
+  <!-- toe kick -->
+  <polygon points="35,50.4 57,40.1 57,51 35,64" fill="#34383c" stroke="#14181d" stroke-width="0.8" stroke-linejoin="round"/>
+  <polygon points="35,50.4 39.0,48.5 39.0,58.7 35,64" fill="#454a50" stroke="#14181d" stroke-width="0.7" stroke-linejoin="round"/>
+  <!-- front-right edge -->
+  <line x1="35" y1="28.5" x2="35" y2="64" stroke="#14181d" stroke-width="1.0"/>
+</svg>

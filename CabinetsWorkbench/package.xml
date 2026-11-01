@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>Cabinets Workbench</name>
+  <description>Spreadsheet-driven parametric cabinet modeling commands for FreeCAD.</description>
+  <version>0.1.0</version>
+  <date>2026-10-31</date>
+  <maintainer>GSR (greglucrosolcom)</maintainer>
+  <license file="LICENSE">Unlicense</license>
+  <url type="repository" branch="main">https://github.com/greglucrosolcom/FreeCAD_cabinetsWorkbench</url>
+  <url type="readme">https://github.com/greglucrosolcom/FreeCAD_cabinetsWorkbench/blob/main/README.md</url>
+  <icon>Resources/icons/CABworkBenIcon.svg</icon>
+  <content>
+    <workbench>
+      <name>Cabinets Workbench</name>
+      <description>Spreadsheet-driven parametric cabinets and related modeling tools.</description>
+      <classname>CabinetsWorkbench</classname>
+      <subdirectory>./</subdirectory>
+      <icon>Resources/icons/CABworkBenIcon.svg</icon>
+    </workbench>
+  </content>
+</package>

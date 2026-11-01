@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8dee4"/>
+      <stop offset="100%" stop-color="#b2bbc4"/>
+    </linearGradient>
+    <linearGradient id="frontGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c7ced6"/>
+      <stop offset="100%" stop-color="#a4aeb8"/>
+    </linearGradient>
+    <linearGradient id="sideGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7b848d"/>
+      <stop offset="100%" stop-color="#616b74"/>
+    </linearGradient>
+  </defs>
+
+  <!-- top -->
+  <polygon points="11,12 32,2 57,16 36,29"
+           fill="url(#topGrad)" stroke="#111820" stroke-width="0.8" stroke-linejoin="round"/>
+
+  <!-- right side -->
+  <polygon points="36,29 57,16 57,49 36,60"
+           fill="url(#sideGrad)" stroke="#111820" stroke-width="0.8" stroke-linejoin="round"/>
+
+  <!-- front face -->
+  <polygon points="11,12 36,29 36,60 11,43"
+           fill="url(#frontGrad)" stroke="#111820" stroke-width="0.8" stroke-linejoin="round"/>
+
+  <!-- two door split -->
+  <line x1="23.4" y1="20.5" x2="23.4" y2="51.4" stroke="#111820" stroke-width="0.8"/>
+
+  <!-- front-right edge emphasis -->
+  <line x1="36" y1="29" x2="36" y2="60" stroke="#111820" stroke-width="1.0"/>
+  <line x1="35.0" y1="28.3" x2="35.0" y2="59.1" stroke="#5f6972" stroke-width="0.45"/>
+
+  <!-- top front lip -->
+  <line x1="11" y1="12" x2="36" y2="29" stroke="#111820" stroke-width="0.8"/>
+  <line x1="11.7" y1="11.1" x2="36.7" y2="28.1" stroke="#111820" stroke-width="0.45"/>
+
+  <!-- toe kick / plinth -->
+  <polygon points="36,48 57,37.5 57,49 36,60"
+           fill="#6b747d" stroke="#111820" stroke-width="0.8" stroke-linejoin="round"/>
+  <polygon points="36,48 39.8,46.1 39.8,57.3 36,60"
+           fill="#aeb7c1" stroke="#111820" stroke-width="0.7" stroke-linejoin="round"/>
+</svg>

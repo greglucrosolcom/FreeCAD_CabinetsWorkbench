@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d7dde3"/>
+      <stop offset="100%" stop-color="#aab4be"/>
+    </linearGradient>
+    <linearGradient id="frontGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c7cfd7"/>
+      <stop offset="100%" stop-color="#9ca7b2"/>
+    </linearGradient>
+    <linearGradient id="sideGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#79838c"/>
+      <stop offset="100%" stop-color="#616b74"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9d5db"/>
+      <stop offset="100%" stop-color="#9fb1bb"/>
+    </linearGradient>
+    <linearGradient id="darkGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4a5056"/>
+      <stop offset="100%" stop-color="#30363b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Upper glass cabinet -->
+  <polygon points="4,9 15,3 29,10.5 18,17"
+           fill="url(#topGrad)" stroke="#111820" stroke-width="0.65" stroke-linejoin="round"/>
+  <polygon points="18,17 29,10.5 29,22.5 18,29"
+           fill="url(#sideGrad)" stroke="#111820" stroke-width="0.65" stroke-linejoin="round"/>
+  <polygon points="4,9 18,17 18,29 4,21"
+           fill="url(#frontGrad)" stroke="#111820" stroke-width="0.65" stroke-linejoin="round"/>
+  <line x1="10.8" y1="13" x2="10.8" y2="25" stroke="#111820" stroke-width="0.65"/>
+  <polygon points="5.5,11.5 9.7,13.9 9.7,22.5 5.5,20.1"
+           fill="url(#glassGrad)" stroke="#111820" stroke-width="0.55"/>
+  <polygon points="11.9,15.2 16.6,17.9 16.6,26.5 11.9,23.8"
+           fill="url(#glassGrad)" stroke="#111820" stroke-width="0.55"/>
+  <line x1="5.8" y1="15.0" x2="9.5" y2="17.1" stroke="#7d8d96" stroke-width="0.4"/>
+  <line x1="5.8" y1="18.0" x2="9.5" y2="20.1" stroke="#7d8d96" stroke-width="0.4"/>
+  <line x1="12.2" y1="18.6" x2="16.4" y2="21.0" stroke="#7d8d96" stroke-width="0.4"/>
+  <line x1="12.2" y1="21.6" x2="16.4" y2="24.0" stroke="#7d8d96" stroke-width="0.4"/>
+
+  <!-- Lower two-door cabinet -->
+  <polygon points="2,31 9,27 18,32.2 11,36.2"
+           fill="url(#topGrad)" stroke="#111820" stroke-width="0.65" stroke-linejoin="round"/>
+  <polygon points="11,36.2 18,32.2 18,49 11,53"
+           fill="url(#sideGrad)" stroke="#111820" stroke-width="0.65" stroke-linejoin="round"/>
+  <polygon points="2,31 11,36.2 11,53 2,47.8"
+           fill="url(#frontGrad)" stroke="#111820" stroke-width="0.65" stroke-linejoin="round"/>
+  <line x1="6.5" y1="33.6" x2="6.5" y2="50.4" stroke="#111820" stroke-width="0.65"/>
+
+  <!-- Oven / cooktop -->
+  <polygon points="18,28.5 26.5,24.0 35.0,28.8 26.7,33.6"
+           fill="url(#topGrad)" stroke="#111820" stroke-width="0.65" stroke-linejoin="round"/>
+  <ellipse cx="22.2" cy="27.0" rx="1.8" ry="0.9" fill="none" stroke="#111820" stroke-width="0.55"/>
+  <ellipse cx="28.5" cy="28.6" rx="1.8" ry="0.9" fill="none" stroke="#111820" stroke-width="0.55"/>
+  <polygon points="18,28.5 26.7,33.6 26.7,51.5 18,46.5"
+           fill="url(#frontGrad)" stroke="#111820" stroke-width="0.65" stroke-linejoin="round"/>
+  <line x1="18" y1="33.1" x2="26.7" y2="38.2" stroke="#111820" stroke-width="0.55"/>
+  <circle cx="20.2" cy="33.1" r="0.65" fill="#aeb7c0" stroke="#111820" stroke-width="0.4"/>
+  <circle cx="23.0" cy="34.7" r="0.65" fill="#aeb7c0" stroke="#111820" stroke-width="0.4"/>
+  <circle cx="25.4" cy="36.1" r="0.65" fill="#aeb7c0" stroke="#111820" stroke-width="0.4"/>
+  <polygon points="19.1,36.7 25.6,40.5 25.6,48.7 19.1,44.9"
+           fill="#aeb7c0" stroke="#111820" stroke-width="0.55"/>
+  <line x1="19.2" y1="35.8" x2="25.5" y2="39.5" stroke="#111820" stroke-width="0.6"/>
+
+  <!-- Tall side-by-side refrigerator -->
+  <polygon points="28,13 39,7 55,16 44,22.5"
+           fill="url(#topGrad)" stroke="#111820" stroke-width="0.7" stroke-linejoin="round"/>
+  <polygon points="44,22.5 55,16 55,58 44,64"
+           fill="url(#sideGrad)" stroke="#111820" stroke-width="0.7" stroke-linejoin="round"/>
+  <polygon points="28,13 44,22.5 44,64 28,54.5"
+           fill="url(#frontGrad)" stroke="#111820" stroke-width="0.7" stroke-linejoin="round"/>
+  <line x1="36" y1="17.8" x2="36" y2="59.3" stroke="#111820" stroke-width="0.75"/>
+  <line x1="44" y1="22.5" x2="44" y2="64" stroke="#111820" stroke-width="0.85"/>
+  <polygon points="44,59.5 55,53.5 55,58 44,64"
+           fill="url(#darkGrad)" stroke="#111820" stroke-width="0.6" stroke-linejoin="round"/>
+
+  <!-- Small support/feet accents -->
+  <rect x="16.8" y="49.5" width="0.8" height="2.2" fill="#30363b"/>
+  <rect x="25.8" y="50.5" width="0.8" height="2.2" fill="#30363b"/>
+</svg>

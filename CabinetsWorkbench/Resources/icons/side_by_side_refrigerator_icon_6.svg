@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d7dde3"/>
+      <stop offset="100%" stop-color="#aab4be"/>
+    </linearGradient>
+    <linearGradient id="frontGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#cacfd6"/>
+      <stop offset="100%" stop-color="#afb6bf"/>
+    </linearGradient>
+    <linearGradient id="sideGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#79828b"/>
+      <stop offset="100%" stop-color="#616b74"/>
+    </linearGradient>
+    <linearGradient id="baseGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3a4046"/>
+      <stop offset="100%" stop-color="#2a3036"/>
+    </linearGradient>
+  </defs>
+
+  <!-- top -->
+  <polygon points="11,8 31,0.8 54,14 39.5,25.5"
+           fill="url(#topGrad)" stroke="#14181d" stroke-width="0.85" stroke-linejoin="round"/>
+
+  <!-- right side -->
+  <polygon points="39.5,25.5 54,14 54,57.5 39.5,64"
+           fill="url(#sideGrad)" stroke="#14181d" stroke-width="0.85" stroke-linejoin="round"/>
+
+  <!-- front -->
+  <polygon points="11,8 39.5,25.5 39.5,64 11,47.5"
+           fill="url(#frontGrad)" stroke="#14181d" stroke-width="0.85" stroke-linejoin="round"/>
+
+  <!-- door split -->
+  <line x1="22.8" y1="15.2" x2="22.8" y2="54.5" stroke="#14181d" stroke-width="0.9"/>
+
+  <!-- front-right edge emphasis -->
+  <line x1="39.5" y1="25.5" x2="39.5" y2="64" stroke="#14181d" stroke-width="1.0"/>
+  <line x1="38.5" y1="24.8" x2="38.5" y2="63.0" stroke="#5f6972" stroke-width="0.45"/>
+
+  <!-- top lip accent -->
+  <line x1="11" y1="8" x2="39.5" y2="25.5" stroke="#14181d" stroke-width="0.85"/>
+  <line x1="11.7" y1="7.3" x2="40.2" y2="24.7" stroke="#14181d" stroke-width="0.45"/>
+
+  <!-- base plinth -->
+  <polygon points="11,46.5 39.5,63 54,57.5 25.7,41.3"
+           fill="url(#baseGrad)" stroke="#14181d" stroke-width="0.8" stroke-linejoin="round"/>
+
+  <!-- subtle left outer edge -->
+  <line x1="11" y1="8" x2="11" y2="47.5" stroke="#14181d" stroke-width="0.85"/>
+</svg>

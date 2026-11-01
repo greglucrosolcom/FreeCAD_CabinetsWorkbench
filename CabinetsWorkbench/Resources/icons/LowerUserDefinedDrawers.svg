@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d7dde3"/>
+      <stop offset="100%" stop-color="#aab4be"/>
+    </linearGradient>
+    <linearGradient id="frontGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c7cfd7"/>
+      <stop offset="100%" stop-color="#9ca7b2"/>
+    </linearGradient>
+    <linearGradient id="sideGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#79838c"/>
+      <stop offset="100%" stop-color="#616b74"/>
+    </linearGradient>
+    <linearGradient id="plinthGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#68727b"/>
+      <stop offset="100%" stop-color="#56616a"/>
+    </linearGradient>
+  </defs>
+  <polygon points="7.5,10.2 29.0,1.0 56.5,16.0 35.2,28.5"
+           fill="url(#topGrad)" stroke="#111820" stroke-width="0.85" stroke-linejoin="round"/>
+  <polygon points="35.2,28.5 56.5,16.0 56.5,50.7 35.2,64.0"
+           fill="url(#sideGrad)" stroke="#111820" stroke-width="0.85" stroke-linejoin="round"/>
+  <polygon points="7.5,10.2 35.2,28.5 35.2,64.0 7.5,46.0"
+           fill="url(#frontGrad)" stroke="#111820" stroke-width="0.85" stroke-linejoin="round"/>
+  <line x1="7.5" y1="15.7" x2="35.2" y2="34.0" stroke="#111820" stroke-width="0.9"/>
+  <line x1="7.5" y1="21.3" x2="35.2" y2="39.6" stroke="#111820" stroke-width="0.9"/>
+  <line x1="7.5" y1="27.1" x2="35.2" y2="45.4" stroke="#111820" stroke-width="0.9"/>
+  <line x1="7.5" y1="33.0" x2="35.2" y2="51.3" stroke="#111820" stroke-width="0.9"/>
+  <polygon points="7.5,15.7 35.2,34.0 35.2,37.4 7.5,19.1"
+           fill="#8df58e" opacity="0.95"/>
+  <polygon points="7.5,21.3 35.2,39.6 35.2,44.8 7.5,26.5"
+           fill="#c3edf5" opacity="0.95"/>
+  <polygon points="7.5,33.0 35.2,51.3 35.2,56.8 7.5,38.5"
+           fill="#c3edf5" opacity="0.95"/>
+  <line x1="7.5" y1="15.7" x2="35.2" y2="34.0" stroke="#111820" stroke-width="0.9"/>
+  <line x1="7.5" y1="21.3" x2="35.2" y2="39.6" stroke="#111820" stroke-width="0.9"/>
+  <line x1="7.5" y1="27.1" x2="35.2" y2="45.4" stroke="#111820" stroke-width="0.9"/>
+  <line x1="7.5" y1="33.0" x2="35.2" y2="51.3" stroke="#111820" stroke-width="0.9"/>
+  <line x1="35.2" y1="28.5" x2="35.2" y2="64.0" stroke="#111820" stroke-width="1.0"/>
+  <line x1="34.2" y1="27.8" x2="34.2" y2="63.0" stroke="#606a73" stroke-width="0.45"/>
+  <line x1="7.5" y1="10.2" x2="35.2" y2="28.5" stroke="#111820" stroke-width="0.85"/>
+  <line x1="8.3" y1="9.4" x2="36.0" y2="27.7" stroke="#111820" stroke-width="0.45"/>
+  <polygon points="35.2,50.0 56.5,39.5 56.5,50.7 35.2,64.0"
+           fill="url(#plinthGrad)" stroke="#111820" stroke-width="0.8" stroke-linejoin="round"/>
+  <polygon points="35.2,50.0 39.0,48.1 39.0,58.8 35.2,64.0"
+           fill="#aeb8c2" stroke="#111820" stroke-width="0.7" stroke-linejoin="round"/>
+</svg>
