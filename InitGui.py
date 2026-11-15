@@ -57,7 +57,6 @@ class CabinetsWorkbench(Workbench):
             return
         self.command_list = [
             "CabinetsWorkbench_Testing",
-            "CabinetsWorkbench_EditCabinet",
             "CabinetsWorkbench_TestCommand",
             "CabinetsWorkbench_LowerTwoDoorCabinet",
             "CabinetsWorkbench_TwoDoorUpperCabinet",
