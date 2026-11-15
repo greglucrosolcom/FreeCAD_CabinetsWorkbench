@@ -115,37 +115,6 @@ class TestingCommand:
             App.Console.PrintError("Error while running testing.py:\n")
             App.Console.PrintError(traceback.format_exc())
 
-class EditCabinetCommand:
-    """Open the Task Panel editor for the selected CabinetsWorkbench cabinet."""
-    def __init__(self):
-        self._active_editor = None
-    def GetResources(self):
-        icon_path = os.path.join(
-            os.path.dirname(os.path.abspath(__file__)),
-            "Resources", "icons", "EditCabinet.svg"
-        )
-        resources = {
-            "MenuText": "Edit Cabinet",
-            "ToolTip": "Edit the selected parametric cabinet in its Task Panel"
-        }
-        if os.path.isfile(icon_path):
-            resources["Pixmap"] = icon_path
-        return resources
-    def IsActive(self):
-        try:
-            import EditCabinet
-            return bool(EditCabinet.is_active())
-        except Exception:
-            return False
-    def Activated(self):
-        App.Console.PrintMessage("Edit Cabinet command activated.\n")
-        try:
-            import EditCabinet
-            EditCabinet = importlib.reload(EditCabinet)
-            self._active_editor = EditCabinet.edit_selected()
-        except Exception:
-            App.Console.PrintError("Error while running Edit Cabinet:\n")
-            App.Console.PrintError(traceback.format_exc())
 
 class CabinetsWorkbenchTestCommand:
     """Verify that CabinetsWorkbench commands are registered correctly."""
@@ -758,7 +727,6 @@ class TallPantryUtilityCabinetCommand:
             App.Console.PrintError(traceback.format_exc())
 
 _testing_command = TestingCommand()
-_edit_cabinet_command = EditCabinetCommand()
 _lower_two_door_command = LowerTwoDoorCabinetCommand()
 _two_door_upper_command = TwoDoorUpperCabinetCommand()
 _upper_open_shelf_command = UpperOpenShelfCommand()
@@ -772,7 +740,6 @@ _lower_user_defined_drawers_command = LowerUserDefinedDrawersCommand()
 _tall_pantry_utility_cabinet_command = TallPantryUtilityCabinetCommand()
 
 Gui.addCommand("CabinetsWorkbench_Testing", _testing_command)
-Gui.addCommand("CabinetsWorkbench_EditCabinet", _edit_cabinet_command)
 Gui.addCommand("CabinetsWorkbench_TestCommand", CabinetsWorkbenchTestCommand())
 Gui.addCommand("CabinetsWorkbench_LowerTwoDoorCabinet", _lower_two_door_command)
 Gui.addCommand("CabinetsWorkbench_TwoDoorUpperCabinet", _two_door_upper_command)
